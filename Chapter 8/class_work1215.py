@@ -29,4 +29,3 @@ def output_data(data: dict[str, dict]) -> None:
 
 if __name__ =="__main__":
     output_data(process_data(input_data()))
-    
