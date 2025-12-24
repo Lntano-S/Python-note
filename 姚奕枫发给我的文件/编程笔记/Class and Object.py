@@ -116,6 +116,7 @@ def main() -> None:
     #你会发现我好像漏填了一个参数
     #但为什么编译器没有报错呢
     #这是因为我在写构造函数的时候给 friends这个元素初始化为了一个空列表
+    student1_name: str = student1.name
     student1.show_id()
     #我们再定义一个对象
     student2: Student = Student("舒天宇", 19, 202521095025, "male")
