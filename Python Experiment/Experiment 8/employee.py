@@ -8,7 +8,7 @@ class Employee:
         self.employee_id: int = _employee_id
         self.base_salary: int = _base_salary
     
-    def calculate_salary(self) -> int:
+    def calculate_salary(self) -> float:
         return self.base_salary - self.base_salary * 0.05
     
     def display_info(self) -> None:
@@ -26,7 +26,7 @@ class FullTimeEmployee(Employee):
         super().__init__(_name, _employee_id, _base_salary)
         self.bonus: int = _bonus
     
-    def calculate_salary(self) -> int:
+    def calculate_salary(self) -> float:
         return super().calculate_salary() + self.bonus
 
 class PartTimeEmployee(Employee):
