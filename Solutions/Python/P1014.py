@@ -1,4 +1,4 @@
-def main() -> float:
+def main() -> None:
     '''
     N: int = int(input()) 
     Cantor: list[list] = [[0]] * 10**4
